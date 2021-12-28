@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:content-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 200px;
+    display: flex;
+
+}
+/*CABEÇALHO*/
+header{
+    display: block;
+    width: 200px;
+    
+}
+.header ul,li{
+    list-style: none;
+    padding: 18px;
+}
+.header a{ 
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.header i{
+    color: rgb(88, 143, 243);
+   
+}
+
+/*CONTEUDO PRINCIPAL*/
+
+section img{
+    border-radius: 50%;
+}
+.form h3{
+    border-bottom:   rgba(107, 106, 106, 0.575) 1px solid;
+}
+.form{
+    border-bottom: rgba(117, 115, 115, 0.342) 8px  solid;
+    padding: 20px;
+}
+form textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+button{
+    background-color: rgb(88, 143, 243);
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+
+}
+main{
+    margin:0 50px;
+    width: 50%;
+    border: rgba(107, 106, 106, 0.575) 1px solid;
+}
+/*FEED*/
+section li{
+    display: flex;
+    border-bottom: rgba(151, 148, 148, 0.651) 1px solid;
+}
+li div{
+    margin-left: 20px;
+}
+div h2{
+    display: inline-block;
+    font-size: medium;
+}
+div span{
+    color: rgba(43, 41, 41, 0.589);
+}
+div p{
+    margin-top: -12px;   
+}
